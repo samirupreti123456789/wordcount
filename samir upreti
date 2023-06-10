@@ -1,0 +1,13 @@
+def count_words(paragraph):
+    # Split the paragraph into words
+    words = paragraph.split()
+
+    # Count the number of words
+    word_count = len(words)
+
+    return word_count
+
+# Example usage
+paragraph = "This is a sample paragraph. It contains several words."
+result = count_words(paragraph)
+print("Word count:", result)
